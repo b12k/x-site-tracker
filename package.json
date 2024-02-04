@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "client-a": "pnpm --filter=client-a",
+    "service": "pnpm --filter=service"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.3"
+  }
+}
